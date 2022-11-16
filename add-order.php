@@ -904,7 +904,7 @@ if ($_GET['o'] == 'add') {
     $("#subTotalValue").val(totalSubAmount);
 
     // vat
-    var vat = (Number($("#subTotal").val()) / 100) * 18;
+    var vat = (Number($("#subTotal").val()) / 100) * 13;
     vat = vat.toFixed(2);
     $("#vat").val(vat);
     $("#vatValue").val(vat);
